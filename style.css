@@ -22,7 +22,7 @@ img {
 	text-align: center;
     padding: 10px;
 }
-@media (max-width:500px)  {
+@media (min-width:320px)  {
     .cards-container {
 		width: 100%;
         display: flex;
