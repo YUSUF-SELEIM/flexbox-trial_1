@@ -22,7 +22,7 @@ img {
 	text-align: center;
     padding: 10px;
 }
-@media (max-width:360px)  {
+@media (max-width:800px)  {
     .cards-container {
         display: flex;
         flex-direction: column;
