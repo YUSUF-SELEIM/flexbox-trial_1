@@ -35,4 +35,7 @@ img {
 		max-width: 100%;
 		width: 150vh;
 	}
+	img{
+		width: 100%;
+	}
 }
