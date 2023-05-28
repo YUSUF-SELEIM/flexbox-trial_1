@@ -1,0 +1,32 @@
+body {
+	background-color: #bbd6b8;
+    font-family: "Handlee", cursive;
+}
+.cards-container {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+img {
+	height: 100px;
+	width: 100px;
+	border: #94af9f solid 2px;
+	border-radius: 10px;
+}
+.season {
+	flex: 1;
+	background-color: #aec2b6;
+	max-width: 400px;
+	border: #94af9f solid 5px;
+	/* the image is centered too by text-align */
+	text-align: center;
+    padding: 10px;
+}
+@media (max-width:600px)  {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}
