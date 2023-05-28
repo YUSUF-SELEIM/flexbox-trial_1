@@ -1,6 +1,6 @@
 body {
 	background-color: #bbd6b8;
-    font-family: "Handlee", cursive;
+	font-family: "Handlee", cursive;
 }
 .cards-container {
 	display: flex;
@@ -20,20 +20,14 @@ img {
 	border: #94af9f solid 5px;
 	/* the image is centered too by text-align */
 	text-align: center;
-    padding: 10px;
+	padding: 10px;
 }
-@media (max-width:1000px)  {
-    .cards-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-		align-items: center;
-        gap: 10px;
-		/* height: 100%; */
-		max-width: 100%;
-    }
-	.season{
-		/* max-height: 100%; */
-		max-width: 100%;
+@media (max-width: 1000px) {
+	.cards-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: stretch;
+		gap: 10px;
 	}
 }
