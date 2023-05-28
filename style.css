@@ -33,9 +33,10 @@ img {
 	.season{
 		flex:1;
 		max-width: 100%;
-		width: 150vh;
+		width: 130vh;
 	}
 	img{
-		width: 100%;
+		width: 250px;
+		height: 200px;
 	}
 }
